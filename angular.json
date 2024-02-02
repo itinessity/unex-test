@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,8 +89,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/",
+            "name": "uNexus",
+            "email": "itinessity@gmail.com"
+          }
         }
       }
+      }
+    },
+    "cli": {
+      "analytics": "0947b1c3-40d3-42bc-aa65-86b51cdcfba9"
     }
+  },
+  "cli": {
+    "analytics": "41cd9532-cd60-420f-aa41-a7fc6a58268c"
   }
 }

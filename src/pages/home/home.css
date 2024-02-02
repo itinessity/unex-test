@@ -1,0 +1,76 @@
+.wrapper
+{
+  background-color: white;
+}
+
+.holder
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+.video-box img
+{
+  width: 100%;
+}
+
+.video-box
+{
+  cursor: pointer;
+  margin: auto;
+  transition: 1s;
+  max-width: 600px;
+}
+
+.video-box:hover
+{
+  transform: scale(1.2);
+}
+
+.text-block
+{
+  margin: auto;
+}
+
+.title
+{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 60px;
+  color:  #33006F;
+}
+
+.comment
+{
+  text-transform: uppercase;
+  color: darkblue;
+  font-size: 12px;
+}
+
+.text
+{
+  max-width: 500px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.stroke
+{
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: #33006F;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.image-box
+{
+  margin: auto;
+}
+
+.image-box img
+{
+  width: 100%;
+}

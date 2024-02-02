@@ -1,0 +1,8 @@
+.wrapper
+{
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  min-height: 100%;
+}
