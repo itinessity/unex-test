@@ -1,34 +1,19 @@
 <div class="navigation">
   <div class="logo">
-      <img src="assets/league-logo.svg">
+      <img src="assets/league-logo.svg" class="logo-img">
   </div>
   <div class="nav-menu">
     <ul class="menu-box">
-      <li class="menu_item" [matMenuTriggerFor]="belowMenu1">
-        <a class="site-navigation-link">Platform</a>
+      <li class="menu_item">
+        <a class="site-navigation-link" href="#about">Why uNexus?</a>
       </li>
-      <mat-menu #belowMenu1="matMenu" yPosition="below">
-        <button mat-menu-item> Platform Overview</button>
-        <button mat-menu-item>Modules</button>
-        <button mat-menu-item>Partners</button>
-      </mat-menu>
-      <li class="menu_item" [matMenuTriggerFor]="belowMenu2">
-        <a class="site-navigation-link">Services</a>
+      <li class="menu_item">
+        <a class="site-navigation-link" href="#platform">Platform</a>
       </li>
-      <mat-menu #belowMenu2="matMenu" yPosition="below">
-        <button mat-menu-item>Documentation</button>
-        <button mat-menu-item>Pricing</button>
-      </mat-menu>
-      <li class="menu_item" [matMenuTriggerFor]="belowMenu3">
-        <a class="site-navigation-link">Company</a>
+      <li class="menu_item">
+        <a class="site-navigation-link" href="#company">Company</a>
       </li>
-      <mat-menu #belowMenu3="matMenu" yPosition="below">
-        <button mat-menu-item>About Us</button>
-        <button mat-menu-item>Newsroom</button>
-        <button mat-menu-item>Careers</button>
-        <button mat-menu-item>Contact</button>
-      </mat-menu>
     </ul>
   </div>
-  <div class="buttons"><button mat-raised-button color="primary" role="button" class="button-nav">Get Started</button></div>
+  <div class="buttons"><button role="button" class="button-nav">Get Started</button></div>
 </div>

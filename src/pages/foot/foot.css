@@ -1,17 +1,19 @@
 .wrapper
 {
-  background: rgb(255,255,255);
-  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(161,215,230,1) 49%, rgba(80,205,249,1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(161,215,230,1) 49%, rgba(80,205,249,1) 100%);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(161,215,230,1) 49%, rgba(80,205,249,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#50cdf9",GradientType=1);
+  background: rgb(188,230,250);
+  background: -moz-linear-gradient(0deg, rgba(188,230,250,1) 0%, rgba(255,255,255,1) 64%);
+  background: -webkit-linear-gradient(0deg, rgba(188,230,250,1) 0%, rgba(255,255,255,1) 64%);
+  background: linear-gradient(0deg, rgba(188,230,250,1) 0%, rgba(255,255,255,1) 64%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bce6fa",endColorstr="#ffffff",GradientType=1);
   min-height: 300px;
+  font-family: 'STHeitiSC-Medium', sans-serif;
+  color: #0f2b45;
 }
 
 .text-block
 {
   margin: auto;
-  max-width: 700px;
+  max-width: 800px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 100px;
@@ -20,12 +22,9 @@
 .headline
 {
   padding-bottom: 10px;
-  font-family: 'Lora', serif;
   font-weight: 400;
-  font-size: 60px;
-  background: -webkit-linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(69,44,99,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  color: #12395e;
 }
 
 .lower-menu
@@ -35,9 +34,26 @@
   grid-template-rows: auto;
 }
 
-.menu-box
+.button-men
 {
+  margin: 2px;
+  border: 1px solid;
+  border-color: #0f2b45;
+  font-size: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'STHeitiSC-Medium', sans-serif;
+  background-color: #f5fbff;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #12395e;
+}
 
+.button-men:hover
+{
+  background-color: #Edf2f5;
 }
 
 .menu_item
@@ -48,6 +64,8 @@
   cursor: pointer;
   font-weight: 600;
   vertical-align: top;
+  color: #0f2b45;
+  font-size: 25px;
 }
 
 .logo
@@ -67,7 +85,12 @@
 {
   text-decoration: none;
   margin-left: 5px;
-  color: darkblue;
+  color: #0f2b45;
+}
+
+.docs a:hover
+{
+  color: #185b9a;
 }
 
 .docs
@@ -79,4 +102,23 @@
 {
   margin-left: 20px;
   padding-bottom: 20px;
+}
+
+
+.site-navigation-link
+{
+  cursor: pointer;
+  color: #0f2b45;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.site-navigation-link:hover
+{
+  color: #185b9a;
+}
+
+.logo-img
+{
+  max-width: 100px;
 }
