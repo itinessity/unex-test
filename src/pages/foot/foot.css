@@ -1,10 +1,6 @@
 .wrapper
 {
-  background: rgb(188,230,250);
-  background: -moz-linear-gradient(0deg, rgba(188,230,250,1) 0%, rgba(255,255,255,1) 64%);
-  background: -webkit-linear-gradient(0deg, rgba(188,230,250,1) 0%, rgba(255,255,255,1) 64%);
-  background: linear-gradient(0deg, rgba(188,230,250,1) 0%, rgba(255,255,255,1) 64%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bce6fa",endColorstr="#ffffff",GradientType=1);
+  background: #f7f7f7;
   min-height: 300px;
   font-family: 'STHeitiSC-Medium', sans-serif;
   color: #0f2b45;

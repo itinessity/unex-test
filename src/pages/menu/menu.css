@@ -3,9 +3,9 @@
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
-  padding: 3em;
-  background: rgb(188,230,250);
-  font-family: 'STHeitiSC-Medium', sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+  font-family: 'Khmer MN', sans-serif;
 }
 
 .buttons
@@ -16,7 +16,6 @@
 .nav-menu
 {
   margin: auto;
-  background: rgb(214,242,253, 0.53);
   padding: 10px;
   border-radius: 25px;
   background-blend-mode: screen;
@@ -68,7 +67,7 @@
 .button-nav
 {
   margin: auto;
-  background: rgb(214,242,253, 0.8);
+  background: none;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 20px;
