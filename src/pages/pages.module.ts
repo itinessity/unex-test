@@ -7,6 +7,7 @@ import {HeadComponent} from "./head/head.component";
 import {FootComponent} from "./foot/foot.component";
 import {MatButton} from "@angular/material/button";
 import {MatMenuModule} from "@angular/material/menu";
+import {MatDivider} from "@angular/material/divider";
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import {MatMenuModule} from "@angular/material/menu";
     HeadComponent,
     FootComponent
     ],
-  imports: [
-    PagesRoutingModule,
-    MatButton,
-    MatMenuModule
-  ],
+    imports: [
+        PagesRoutingModule,
+        MatButton,
+        MatMenuModule,
+        MatDivider
+    ],
   providers: [],
   bootstrap: []
 })
