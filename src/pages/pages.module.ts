@@ -8,6 +8,12 @@ import {FootComponent} from "./foot/foot.component";
 import {MatButton} from "@angular/material/button";
 import {MatMenuModule} from "@angular/material/menu";
 import {MatDivider} from "@angular/material/divider";
+import {TermsComponent} from "./terms/terms";
+import {PolicyComponent} from "./policy/policy";
+import {SubcribeComponent} from "./subscribes/subcribe";
+import {MatFormField, MatFormFieldModule} from "@angular/material/form-field";
+import {MatInput, MatInputModule} from "@angular/material/input";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -15,14 +21,21 @@ import {MatDivider} from "@angular/material/divider";
     HomeComponent,
     MenuComponent,
     HeadComponent,
-    FootComponent
+    FootComponent,
+    TermsComponent,
+    PolicyComponent,
+    SubcribeComponent
     ],
-    imports: [
-        PagesRoutingModule,
-        MatButton,
-        MatMenuModule,
-        MatDivider
-    ],
+  imports: [
+    PagesRoutingModule,
+    ReactiveFormsModule,
+    MatButton,
+    MatMenuModule,
+    MatDivider,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+  ],
   providers: [],
   bootstrap: []
 })

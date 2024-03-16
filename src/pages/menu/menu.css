@@ -5,7 +5,6 @@
   grid-template-rows: auto;
   padding: 20px;
   background: #f7f7f7;
-  font-family: 'Khmer MN', sans-serif;
 }
 
 .buttons
@@ -17,8 +16,6 @@
 {
   margin: auto;
   padding: 10px;
-  border-radius: 25px;
-  background-blend-mode: screen;
 }
 
 .menu-box
@@ -45,7 +42,7 @@
   cursor: pointer;
   text-decoration: underline transparent;
   transition: text-decoration 300ms ease-in;
-  color: #030e18;
+  color: #2F455C;
   padding: 10px;
 }
 
@@ -56,13 +53,6 @@
   text-decoration-thickness: 4px;
   text-underline-offset: 5px;
 }
-
-
-.logo-img
-{
-  max-width: 100px;
-}
-
 
 .button-nav
 {
@@ -76,7 +66,7 @@
   background-blend-mode: screen;
   border-width: 0;
   font-size: 20px;
-  color: #0867b0;
+  color: #2F455C;
   font-weight: 500;
   cursor: pointer;
 }

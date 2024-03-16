@@ -15,25 +15,6 @@
   padding: 200px;
 }
 
-.button-men
-{
-  margin: 2px;
-  border: 1px solid;
-  border-color: #0f2b45;
-  font-size: 25px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-family: 'Khmer MN', sans-serif;
-  background-color: #f5fbff;
-  cursor: pointer;
-}
-
-.button-men:hover
-{
-  background-color: #Edf2f5;
-}
 
 .image-box
 {
@@ -53,23 +34,17 @@
 .headline
 {
   padding-bottom: 10px;
-  font-family: 'STHeitiSC-Medium', sans-serif;
   font-weight: 400;
   font-size: 60px;
   max-width: 500px;
   color: #f5fbff;
-  mix-blend-mode: screen;
+  mix-blend-mode: overlay;
   text-align: center;
 }
 
 .stroke
 {
   font-weight: 400;
-  color: #0867b0;
-}
-
-.lines
-{
-  max-width: 400px;
-  padding-bottom: 10px;
+  color: #45C1F1;
+  mix-blend-mode: screen;
 }

@@ -1,8 +1,7 @@
 .wrapper
 {
   background-color: #f7f7f7;
-  font-family: 'Khmer MN', sans-serif;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .holder
@@ -10,24 +9,6 @@
   display: grid;
   grid-template-columns: 50% 30%;
   grid-template-rows: auto;
-}
-
-.video-box img
-{
-  width: 100%;
-}
-
-.video-box
-{
-  cursor: pointer;
-  margin: auto;
-  transition: 1s;
-  max-width: 550px;
-}
-
-.video-box:hover
-{
-  transform: scale(1.2);
 }
 
 .text-block
@@ -44,10 +25,12 @@
 
 .main-title
 {
-  color: #0f2b45;
   text-align: center;
   padding: 30px;
   font-size: 45px;
+  color: #FFFFFF; /* Цвет текста */
+  -webkit-text-stroke: 1px #0f2b45; /* Толщина и цвет обводки */
+  text-stroke: 1px #0f2b45; /* Толщина и цвет обводки (стандартное свойство) */
 }
 
 .text
@@ -71,18 +54,18 @@
 
 .about
 {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .platform
 {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .carousel-wrapper{
   min-height:500px;
   position:relative;
-  width:800px;
+  max-width:600px;
   margin:auto;
 }
 
@@ -105,11 +88,10 @@
 
 .carousel-item img
 {
-  height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 90%;
 }
 
 .arrow{
@@ -164,3 +146,41 @@
   opacity: 1;
 }
 
+.text-headline-block
+{
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.headline
+{
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #12395e;
+}
+
+
+.button-men
+{
+  margin: 2px;
+  border: 1px solid;
+  border-color: #0f2b45;
+  font-size: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f5fbff;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #12395e;
+}
+
+.button-men:hover
+{
+  background-color: #Edf2f5;
+}
