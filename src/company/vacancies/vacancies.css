@@ -1,0 +1,44 @@
+.wrapper
+{
+  padding-bottom: 50px;
+  min-height: 80vh;
+}
+
+.text-block
+{
+  max-width: 80%;
+  color: #0f2b45;
+  font-size: 18px;
+  margin: auto;
+}
+
+.title
+{
+  text-align: center;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #12395e;
+}
+
+.description
+{
+  padding-bottom: 15px;
+}
+
+.responses
+{
+  padding-bottom: 15px;
+}
+
+.reqs
+{
+  padding-bottom: 15px;
+}
+
+.text-block a
+{
+  text-decoration: none;
+  font-weight: bolder;
+  color: inherit;
+}

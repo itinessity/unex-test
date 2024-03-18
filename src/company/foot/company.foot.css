@@ -1,0 +1,32 @@
+.wrapper
+{
+  min-height: fit-content;
+  color: #f7f7f7;
+}
+
+.lower-menu
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.logo
+{
+  vertical-align: middle;
+  margin: auto;
+}
+
+.copyrights
+{
+  margin-left: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+.logo-img
+{
+  max-width: 150px;
+}
+
