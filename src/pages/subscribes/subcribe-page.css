@@ -1,6 +1,5 @@
 .wrapper
 {
-  background-color: #f7f7f7;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -30,13 +29,13 @@
   text-align: center;
   padding: 30px;
   font-size: 45px;
-  color: #0f2b45; /* Цвет текста */
+  color: #003b3d; /* Цвет текста */
 }
 
 .form
 {
   margin: auto;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .email-form-full-width {

@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="text-block">
+    <section id="vac-1">
+      <div class="title">
+        {{vacancyItem.title}}
+      </div>
+      <div class="description">
+        {{vacancyItem.description}}
+      </div>
+      <div class="responses">
+        <b>Responsibilities:</b> <br><br>
+        <p [innerHTML]="vacancyItem.responsibilities"></p>
+      </div>
+      <div class="reqs">
+        <b>Requirements:</b><br><br>
+        <p [innerHTML]="vacancyItem.requirements"></p>
+      </div>
+      <div class="description">
+        If you think you’ve got what it takes, feel free to apply for this position, and we will get back to you with feedback within two weeks.
+        <br><br>
+        <b>{{vacancyItem.additional}}</b>
+        <br><br>
+        <i>Personal data collected is for recruitment purpose only.</i>
+        <br><br>
+        Apply with your CV and any additional information at the email <a href="mailto:info&#64;unexus.io">info&#64;unexus.io </a>
+      </div>
+    </section>
+  </div>
+</div>

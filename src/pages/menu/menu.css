@@ -3,8 +3,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
-  padding: 20px;
-  background: #f7f7f7;
+  padding: 10px;
 }
 
 .buttons
@@ -28,7 +27,7 @@
   display: inline-block;
   height: auto;
   vertical-align: middle;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .logo
@@ -37,13 +36,19 @@
   margin: auto;
 }
 
+.logo-img
+{
+  max-width: 150px;
+}
+
 .site-navigation-link
 {
   cursor: pointer;
   text-decoration: underline transparent;
   transition: text-decoration 300ms ease-in;
-  color: #2F455C;
+  color: #003b3d;
   padding: 10px;
+  font-weight: 600;
 }
 
 .site-navigation-link:hover
@@ -66,8 +71,8 @@
   background-blend-mode: screen;
   border-width: 0;
   font-size: 20px;
-  color: #2F455C;
-  font-weight: 500;
+  color: #003b3d;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -75,4 +80,17 @@
 {
   background: rgb(237, 242, 245, 0.8);
   background-blend-mode: normal;
+}
+
+
+.bnt-text
+{
+  vertical-align: middle;
+  margin: auto;
+}
+
+.button-nav img
+{
+  vertical-align: middle;
+  margin: auto;
 }

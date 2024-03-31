@@ -3,6 +3,7 @@ import {RouterModule, Routes} from "@angular/router";
 import {CompanyComponent} from "./company.component";
 import {CompanyMainComponent} from "./main/main";
 import {CompanyVacanciesComponent} from "./vacancies/vacancies";
+import {ItemVacanciesComponent} from "./vacancies/item";
 
 export const routes: Routes =
   [
@@ -14,6 +15,9 @@ export const routes: Routes =
         },
         {
           path: 'roles', component: CompanyVacanciesComponent,
+        },
+        {
+          path: 'roles/:key', component: ItemVacanciesComponent,
         },
       ]}
   ];

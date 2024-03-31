@@ -12,6 +12,8 @@ import {CompanyMenuComponent} from "./menu/company.menu";
 import {CompanyMainComponent} from "./main/main";
 import {CompanyVacanciesComponent} from "./vacancies/vacancies";
 import {CompanyContactsComponent} from "./contacts/contacts";
+import {ItemVacanciesComponent} from "./vacancies/item";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -20,9 +22,11 @@ import {CompanyContactsComponent} from "./contacts/contacts";
     CompanyMenuComponent,
     CompanyMainComponent,
     CompanyVacanciesComponent,
-    CompanyContactsComponent
+    CompanyContactsComponent,
+    ItemVacanciesComponent
   ],
   imports: [
+    CommonModule,
     CompanyRoutingModule,
     ReactiveFormsModule,
     MatButton,

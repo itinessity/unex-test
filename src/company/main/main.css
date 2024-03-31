@@ -7,7 +7,7 @@
 {
   font-weight: 400;
   font-size: 60px;
-  color:  #0f2b45;
+  color:  #003c3d;
   text-align: center;
 }
 
@@ -15,7 +15,7 @@
 {
   margin: 2px;
   border: 1px solid;
-  border-color: #0f2b45;
+  border-color: #003c3d;
   font-size: 20px;
   padding-bottom: 7px;
   padding-top: 7px;
@@ -24,7 +24,7 @@
   background-color: #f5fbff;
   cursor: pointer;
   border-radius: 25px;
-  color: #12395e;
+  color: #003c3d;
 }
 
 .button-men:hover
@@ -36,7 +36,7 @@
 {
   max-width: 600px;
   margin: 15px auto;
-  color: #0f2b45;
+  color: #003c3d;
   font-size: 20px;
 }
 

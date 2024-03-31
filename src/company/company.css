@@ -40,5 +40,10 @@
 
 .wave path
 {
-  fill: #2F455C;
+  fill: url(#header-shape-gradient) #fff;;
+}
+
+#header-shape-gradient {
+  --color-stop: #4db9a8;
+  --color-bot: #003c3d;
 }

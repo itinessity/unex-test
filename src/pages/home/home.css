@@ -1,7 +1,7 @@
 .wrapper
 {
-  background-color: #f7f7f7;
   padding-top: 100px;
+  background-color: #f6f6f6;
 }
 
 .holder
@@ -16,21 +16,28 @@
   margin: auto;
 }
 
-.title
-{
-  font-weight: 400;
-  font-size: 60px;
-  color:  #0f2b45;
-}
-
 .main-title
 {
-  text-align: center;
   padding: 30px;
   font-size: 45px;
-  color: #FFFFFF; /* Цвет текста */
-  -webkit-text-stroke: 1px #0f2b45; /* Толщина и цвет обводки */
-  text-stroke: 1px #0f2b45; /* Толщина и цвет обводки (стандартное свойство) */
+  color: #003b3d; /* Цвет текста */
+  font-weight: 600;
+  background-color: #fafafa;
+}
+
+.right
+{
+  text-align: right;
+}
+
+.left
+{
+  text-align: left;
+}
+
+.center
+{
+  text-align: center;
 }
 
 .text
@@ -38,7 +45,7 @@
   max-width: 400px;
   margin-bottom: 15px;
   margin-top: 15px;
-  color: #0f2b45;
+  color: #003b3d;
   font-size: 20px;
 }
 
@@ -83,7 +90,7 @@
 .carousel-item h2
 {
   text-align: center;
-  color: #185b9a;
+  color: #003b3d;
 }
 
 .carousel-item img
@@ -166,7 +173,7 @@
 
 .button-men
 {
-  margin: 2px;
+  margin: auto;
   border: 1px solid;
   border-color: #0f2b45;
   font-size: 20px;

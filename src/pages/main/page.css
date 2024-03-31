@@ -1,8 +1,32 @@
 .wrapper
 {
-  background-color: aquamarine;
+
+}
+
+.back
+{
+  margin: 0;
+  background: rgb(77,185,168);
+  background: -moz-linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
+  background: -webkit-linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
+  background: linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4db9a8",endColorstr="#003b3d",GradientType=1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 100%;
+  width: 100%;
+}
+
+.overlay
+{
+  width: 100%;
+  margin: auto;
+  background-color: #fafafa;
+  border-radius: 25px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
-  min-height: 100%;
 }

@@ -8,7 +8,7 @@
 {
   max-width: 80%;
   color: #0f2b45;
-  font-size: 18px;
+  font-size: 20px;
   margin: auto;
 }
 
@@ -28,11 +28,13 @@
 
 .responses
 {
+  font-size: 22px;
   padding-bottom: 15px;
 }
 
 .reqs
 {
+  font-size: 22px;
   padding-bottom: 15px;
 }
 
@@ -41,4 +43,55 @@
   text-decoration: none;
   font-weight: bolder;
   color: inherit;
+}
+
+
+.cards
+{
+  margin: auto;
+  width: 90%;
+  list-style: none;
+}
+
+.card
+{
+  box-shadow: 10px 5px 5px #Edf2f5;
+  margin: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 10px;
+}
+
+.button-men
+{
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid;
+  border-color: #003c3d;
+  font-size: 18px;
+  background-color: #f5fbff;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #003c3d;
+  width: 200px;
+  height: 35px;
+}
+
+.button-men:hover
+{
+  background-color: #Edf2f5;
+}
+
+.title-list
+{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.additional
+{
+  margin: 2px;
+  vertical-align: middle;
 }

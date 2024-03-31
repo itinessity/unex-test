@@ -15,14 +15,14 @@ import {CompanyModule} from "../company/company.module";
     AppComponent,
   ],
   imports: [
+    CommonModule,
+    BrowserModule,
     PagesModule,
     CompanyModule,
     AppRoutingModule,
-    BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    CommonModule,
     ReactiveFormsModule
   ],
   providers: [

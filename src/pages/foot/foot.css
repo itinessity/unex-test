@@ -1,6 +1,5 @@
 .wrapper
 {
-  background: #f7f7f7;
   min-height: 150px;
 }
 
@@ -18,29 +17,23 @@
   margin-left: 50px;
   cursor: pointer;
   font-weight: 400;
-  vertical-align: top;
-  color: #0f2b45;
+  vertical-align: middle;
+  color: #003b3d;
   font-size: 25px;
 }
 
 .logo
 {
   vertical-align: middle;
-  margin: auto;
+  margin: auto 10px;
 }
 
-.list-item
-{
-  font-weight: 400;
-  list-style: none;
-  padding: 2px;
-}
 
 .docs a
 {
   text-decoration: none;
   margin-left: 5px;
-  color: #0f2b45;
+  color: #003b3d;
 }
 
 .docs a:hover
@@ -64,7 +57,7 @@
 .site-navigation-link
 {
   cursor: pointer;
-  color: #0f2b45;
+  color: #003b3d;
   padding: 10px;
   text-decoration: none;
 }
