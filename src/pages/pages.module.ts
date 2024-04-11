@@ -16,28 +16,31 @@ import {MatInputModule} from "@angular/material/input";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
-  declarations: [
-    PageComponent,
-    HomeComponent,
-    MenuComponent,
-    HeadComponent,
-    FootComponent,
-    TermsComponent,
-    PolicyComponent,
-    SubcribeComponent
+    declarations: [
+        PageComponent,
+        HomeComponent,
+        MenuComponent,
+        HeadComponent,
+        FootComponent,
+        TermsComponent,
+        PolicyComponent,
+        SubcribeComponent
     ],
-  imports: [
-    PagesRoutingModule,
-    ReactiveFormsModule,
-    MatButton,
-    MatMenuModule,
-    MatDivider,
-    FormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-  ],
-  providers: [],
-  bootstrap: []
+    imports: [
+        PagesRoutingModule,
+        ReactiveFormsModule,
+        MatButton,
+        MatMenuModule,
+        MatDivider,
+        FormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+    ],
+    providers: [],
+    exports: [
+        FootComponent
+    ],
+    bootstrap: []
 })
 export class PagesModule { }
 

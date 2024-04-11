@@ -2,13 +2,13 @@
 {
   padding-bottom: 50px;
   min-height: 80vh;
+  font-size: 23px;
 }
 
 .text-block
 {
   max-width: 80%;
   color: #0f2b45;
-  font-size: 20px;
   margin: auto;
 }
 
@@ -18,7 +18,7 @@
   padding-bottom: 15px;
   font-weight: 600;
   font-size: 35px;
-  color: #12395e;
+  color: #68c7ba;
 }
 
 .description
@@ -28,13 +28,13 @@
 
 .responses
 {
-  font-size: 22px;
+  font-size: 25px;
   padding-bottom: 15px;
 }
 
 .reqs
 {
-  font-size: 22px;
+  font-size: 25px;
   padding-bottom: 15px;
 }
 
@@ -68,10 +68,9 @@
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  border: 1px solid;
-  border-color: #003c3d;
+  border: none;
   font-size: 18px;
-  background-color: #f5fbff;
+  background-color: #4fc1ae;
   cursor: pointer;
   border-radius: 25px;
   color: #003c3d;
@@ -94,4 +93,10 @@
 {
   margin: 2px;
   vertical-align: middle;
+  color: #003b3d;
+}
+
+.additional-icon
+{
+  color: #68c7ba;
 }

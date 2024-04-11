@@ -2,12 +2,13 @@
 {
   padding-top: 100px;
   background-color: #f6f6f6;
+  font-size: 20px;
 }
 
 .holder
 {
   display: grid;
-  grid-template-columns: 50% 30%;
+  grid-template-columns: 50% 40%;
   grid-template-rows: auto;
 }
 
@@ -19,10 +20,15 @@
 .main-title
 {
   padding: 30px;
-  font-size: 45px;
+  font-size: 43px;
   color: #003b3d; /* Цвет текста */
   font-weight: 600;
   background-color: #fafafa;
+}
+
+.colored-unexus
+{
+  color: #58d0bf
 }
 
 .right
@@ -42,11 +48,12 @@
 
 .text
 {
-  max-width: 400px;
+  max-width: 800px;
   margin-bottom: 15px;
   margin-top: 15px;
   color: #003b3d;
-  font-size: 20px;
+  font-size: 30px;
+  padding-left: 15px;
 }
 
 .image-box
@@ -174,17 +181,16 @@
 .button-men
 {
   margin: auto;
-  border: 1px solid;
-  border-color: #0f2b45;
   font-size: 20px;
   padding-bottom: 7px;
   padding-top: 7px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #f5fbff;
+  background-color: #4fc1ae;
   cursor: pointer;
   border-radius: 25px;
-  color: #12395e;
+  color: #003b3d;
+  border: none;
 }
 
 .button-men:hover

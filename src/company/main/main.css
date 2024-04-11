@@ -14,17 +14,16 @@
 .button-men
 {
   margin: 2px;
-  border: 1px solid;
-  border-color: #003c3d;
+  border: none;
   font-size: 20px;
   padding-bottom: 7px;
   padding-top: 7px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #f5fbff;
+  background-color: #4fc1ae;
   cursor: pointer;
   border-radius: 25px;
-  color: #003c3d;
+  color: #003b3d;
 }
 
 .button-men:hover
@@ -37,7 +36,7 @@
   max-width: 600px;
   margin: 15px auto;
   color: #003c3d;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .buttons

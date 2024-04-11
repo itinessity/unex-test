@@ -1,6 +1,7 @@
 .wrapper
 {
   padding-top: 30px;
+  font-size: 20px;
 }
 
 .text-block
@@ -47,17 +48,16 @@
 .button-men
 {
   margin: 2px;
-  border: 1px solid;
-  border-color: #0f2b45;
+  border: none;
   font-size: 20px;
   padding-bottom: 7px;
   padding-top: 7px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #f5fbff;
+  background-color: #4fc1ae;
   cursor: pointer;
   border-radius: 25px;
-  color: #12395e;
+  color: #003c3d;
   margin-top: 10px;
 }
 

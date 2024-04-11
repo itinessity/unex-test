@@ -14,6 +14,7 @@ import {CompanyVacanciesComponent} from "./vacancies/vacancies";
 import {CompanyContactsComponent} from "./contacts/contacts";
 import {ItemVacanciesComponent} from "./vacancies/item";
 import {CommonModule} from "@angular/common";
+import {PagesModule} from "../pages/pages.module";
 
 @NgModule({
   declarations: [
@@ -25,17 +26,18 @@ import {CommonModule} from "@angular/common";
     CompanyContactsComponent,
     ItemVacanciesComponent
   ],
-  imports: [
-    CommonModule,
-    CompanyRoutingModule,
-    ReactiveFormsModule,
-    MatButton,
-    MatMenuModule,
-    MatDivider,
-    FormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-  ],
+    imports: [
+        CommonModule,
+        CompanyRoutingModule,
+        ReactiveFormsModule,
+        MatButton,
+        MatMenuModule,
+        MatDivider,
+        FormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        PagesModule,
+    ],
   providers: [],
   bootstrap: []
 })
