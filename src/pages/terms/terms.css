@@ -44,26 +44,3 @@
 {
   color: #185b9a;
 }
-
-.button-men
-{
-  margin: 2px;
-  border: none;
-  font-size: 20px;
-  padding-bottom: 7px;
-  padding-top: 7px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #4fc1ae;
-  cursor: pointer;
-  border-radius: 25px;
-  color: #003c3d;
-  margin-top: 10px;
-}
-
-.button-men:hover
-{
-  background-color: #Edf2f5;
-}
-
-

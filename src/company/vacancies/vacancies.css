@@ -18,7 +18,10 @@
   padding-bottom: 15px;
   font-weight: 600;
   font-size: 35px;
-  color: #68c7ba;
+  background: linear-gradient(0deg, #1a393f 30%, #00b79b 66%, #00b79b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #1a393f;
 }
 
 .description
@@ -63,24 +66,11 @@
   border-radius: 10px;
 }
 
-.button-men
+.button-main
 {
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  border: none;
-  font-size: 18px;
-  background-color: #4fc1ae;
-  cursor: pointer;
-  border-radius: 25px;
-  color: #003c3d;
-  width: 200px;
-  height: 35px;
-}
-
-.button-men:hover
-{
-  background-color: #Edf2f5;
 }
 
 .title-list

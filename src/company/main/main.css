@@ -11,29 +11,9 @@
   text-align: center;
 }
 
-.button-men
-{
-  margin: 2px;
-  border: none;
-  font-size: 20px;
-  padding-bottom: 7px;
-  padding-top: 7px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #4fc1ae;
-  cursor: pointer;
-  border-radius: 25px;
-  color: #003b3d;
-}
-
-.button-men:hover
-{
-  background-color: #Edf2f5;
-}
-
 .text-block
 {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 15px auto;
   color: #003c3d;
   font-size: 25px;
@@ -48,18 +28,6 @@
 .holder
 {
   display: grid;
-  grid-template-columns: 40% 50%;
+  grid-template-columns: 100%;
   grid-template-rows: auto;
-}
-
-
-.image-box
-{
-  margin: auto;
-  padding: 20px;
-}
-
-.image-box img
-{
-  width: 100%;
 }
