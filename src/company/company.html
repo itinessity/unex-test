@@ -1,11 +1,17 @@
 <div class="wrapper">
-  <div class="menu">
-    <app-company-menu></app-company-menu>
+  <div class="back">
+    <div class="overlay">
+    <div class="menu">
+      <app-company-menu></app-company-menu>
+    </div>
+      <div class="back-main">
+        <div class="main">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    <div class="footer">
+      <app-foot></app-foot>
+    </div>
   </div>
-  <div class="main">
-    <router-outlet></router-outlet>
-  </div>
-  <div class="footer">
-    <app-foot></app-foot>
-  </div>
+</div>
 </div>
