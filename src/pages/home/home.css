@@ -23,7 +23,34 @@
   font-size: 43px;
   color: #1a393f; /* Цвет текста */
   font-weight: 600;
-  background-color: #fafafa;
+  border-radius: 25px;
+}
+
+.left-grad
+{
+  background: rgb(136,238,213);
+  background: -moz-linear-gradient(90deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 78%);
+  background: -webkit-linear-gradient(90deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 78%);
+  background: linear-gradient(90deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 78%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
+}
+
+.right-grad
+{
+  background: rgb(136,238,213);
+  background: -moz-linear-gradient(270deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 78%);
+  background: -webkit-linear-gradient(270deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 78%);
+  background: linear-gradient(270deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 78%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
+}
+
+.center-grad
+{
+  background: rgb(136,238,213);
+  background: -moz-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: -webkit-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
 }
 
 .colored-unexus
