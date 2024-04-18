@@ -2,6 +2,7 @@
 {
   padding-top: 30px;
   padding-bottom: 50px;
+  font-family: Arial, serif;
 }
 
 .text-block
@@ -9,7 +10,7 @@
   max-width: 90%;
   margin: auto;
   color: #003b3d;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .text-block a
@@ -28,8 +29,19 @@
 {
   text-align: center;
   padding: 30px;
-  font-size: 50px;
+  font-size: 60px;
   color: #003b3d; /* Цвет текста */
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: "Markazi Text", serif;
+}
+
+.colored-unexus
+{
+  background: linear-gradient(0deg, #1a393f 30%, #00b79b 66%, #00b79b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #1a393f;
 }
 
 .form
@@ -52,6 +64,8 @@
   padding-right: 12px;
   border-radius: 15px;
   border: none;
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
 }
 
 .email-btn:disabled

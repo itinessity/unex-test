@@ -20,27 +20,14 @@
   background: -webkit-linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
   background: linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4db9a8",endColorstr="#003b3d",GradientType=1);
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .wrapper
 {
-
-}
-
-.back
-{
-  margin: 0;
-  background: rgb(77,185,168);
-  background: -moz-linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
-  background: -webkit-linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
-  background: linear-gradient(90deg, rgba(77,185,168,1) 0%, rgba(0,59,61,1) 78%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4db9a8",endColorstr="#003b3d",GradientType=1);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  font-family: Arial, serif;
   min-height: 100%;
-  width: 100%;
 }
 
 .overlay
@@ -48,10 +35,11 @@
   width: 100%;
   margin: auto;
   background-color: #fafafa;
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
+  min-height: 100vh;
 }
 
 .menu
@@ -71,8 +59,10 @@
 .main
 {
   margin: auto;
-  max-height: fit-content;
+  min-height: 100%;
   grid-area: 2/1;
   z-index: 1;
   background-color: #fafafa;
+  max-height: fit-content;
+  max-width: 100%;
 }

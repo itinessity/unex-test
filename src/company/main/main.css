@@ -1,6 +1,8 @@
 .wrapper
 {
   padding-bottom: 50px;
+  height: 100%;
+  padding-left: 15px;
 }
 
 .title
@@ -9,6 +11,8 @@
   font-size: 60px;
   color:  #003c3d;
   text-align: center;
+  font-family: "Markazi Text", serif;
+  padding-top: 25px;
 }
 
 .text-block

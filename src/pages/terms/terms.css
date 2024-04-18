@@ -9,11 +9,20 @@
   margin: auto;
   max-width: 95%;
   color:  #0f2b45;
+  font-family: Arial, serif;
 }
 
 .text-block h1
 {
   text-align: center;
+  background: rgb(136,238,213);
+  background: -moz-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: -webkit-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .text-block h2
@@ -21,26 +30,55 @@
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+  background: rgb(136,238,213);
+  background: -moz-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: -webkit-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
+  padding: 10px;
 }
 
 .text-block h3
 {
   margin-top: 10px;
   margin-bottom: 10px;
+  background: rgb(136,238,213);
+  background: -moz-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: -webkit-linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  background: linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
+  padding: 10px;
 }
 
 .text-block h4
 {
   margin-top: 5px;
+  color: #003b3d;
+  text-decoration: #003b3d;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-decoration-line: underline;
 }
 
 .text-block a
 {
   text-decoration: none;
-  color:  #0f2b45;
+  color:  #003b3d;
 }
 
 .text-block a:hover
 {
-  color: #185b9a;
+  color: #00b79b;
+}
+
+.text-block ul
+{
+  margin-left: 4em;
+  padding: 10px;
+}
+
+.text-block li
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
