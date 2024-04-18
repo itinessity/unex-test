@@ -9,14 +9,13 @@ body { margin: 0; font-family: "Markazi Text", serif; }
 .button-main
 {
   border: none;
-  font-size: 20px;
+  font-size: 1.3em;
   padding: 15px 50px;
   background-color: #4fc1ae;
   cursor: pointer;
   border-radius: 25px;
   color: #003c3d;
   margin: 10px 2px 2px;
-  font-weight: bold;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 23%);
   font-family: "Markazi Text", serif;
 }

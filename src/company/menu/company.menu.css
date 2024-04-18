@@ -29,7 +29,7 @@
   display: inline-block;
   height: auto;
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 2em;
 }
 
 .logo
@@ -59,16 +59,13 @@
 {
   margin: auto;
   background: none;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 5px 20px;
   border-radius: 25px;
   background-blend-mode: screen;
   border-width: 0;
-  font-size: 20px;
+  font-size: 1em;
   color: #2F455C;
-  font-weight: 500;
+  500;
   cursor: pointer;
 }
 

@@ -20,19 +20,19 @@
 .main-title
 {
   padding: 30px;
-  font-size: 45px;
+  font-size: 2.5em;
   color: #1a393f; /* Цвет текста */
-  font-weight: 600;
+  ;
 }
 
 .main-title-empth
 {
-  font-size: 60px;
+  font-size: 3.2em;
 }
 
 .main-title-less-empth
 {
-  font-size: 35px;
+  font-size: 2em;
 }
 
 .colored-unexus
@@ -64,9 +64,10 @@
   margin-bottom: 15px;
   margin-top: 15px;
   color: #1a393f;
-  font-size: 27px;
+  font-size: 1em;
   padding-left: 15px;
   font-family: Arial, serif;
+  line-height: 2;
 }
 
 .image-box
@@ -96,7 +97,7 @@
   grid-template-rows: auto;
   column-gap: 1em;
   color: #1a393f;
-  font-size: 23px;
+  font-size: 1em;
   margin-bottom: 20px;
 }
 
@@ -126,7 +127,7 @@
 {
   text-align: center;
   padding: 15px;
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
 

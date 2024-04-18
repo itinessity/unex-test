@@ -27,7 +27,7 @@
   display: inline-block;
   height: auto;
   vertical-align: middle;
-  font-size: 35px;
+  font-size: 2em;
 }
 
 .logo
@@ -48,7 +48,7 @@
   transition: text-decoration 300ms ease-in;
   color: #1a393f;
   padding: 10px;
-  font-weight: 600;
+  ;
 }
 
 .site-navigation-link:hover
@@ -63,16 +63,13 @@
 {
   margin: auto;
   background: none;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 5px 20px;
   border-radius: 25px;
   background-blend-mode: screen;
   border-width: 0;
-  font-size: 20px;
+  font-size: 1.5em;
   color: #1a393f;
-  font-weight: 600;
+  ;
   cursor: pointer;
 }
 

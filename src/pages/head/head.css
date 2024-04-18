@@ -51,7 +51,7 @@
 .headline
 {
   padding-bottom: 10px;
-  font-weight: 400;
+  ;
   font-size: 60px;
   max-width: 500px;
   color: #003b3d;
@@ -61,7 +61,7 @@
 
 .stroke
 {
-  font-weight: 400;
+  ;
   color: #b5fef3;
   mix-blend-mode: screen;
 }
