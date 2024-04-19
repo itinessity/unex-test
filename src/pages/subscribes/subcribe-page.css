@@ -1,6 +1,5 @@
 .wrapper
 {
-  padding-top: 30px;
   padding-bottom: 50px;
   font-family: Arial, serif;
 }
@@ -11,6 +10,7 @@
   margin: auto;
   color: #003b3d;
   font-size: 23px;
+  line-height: 1.5;
 }
 
 .text-block a
@@ -31,8 +31,7 @@
   padding: 30px;
   font-size: 60px;
   color: #003b3d; /* Цвет текста */
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 20px;
   font-family: "Markazi Text", serif;
 }
 

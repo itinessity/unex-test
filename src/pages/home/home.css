@@ -1,6 +1,5 @@
 .wrapper
 {
-  padding-top: 100px;
   background-color: #f6f6f6;
   font-size: 20px;
 }
@@ -41,6 +40,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #1a393f;
+}
+
+.colored-unexus-white
+{
+  color: #fafafa;
 }
 
 .right
@@ -142,3 +146,14 @@
   padding-bottom: 50px;
   column-gap: 1em;
 }
+
+.list-points
+{
+  margin-left: 40px;
+}
+
+.list-points li::marker
+{
+  color: #00b79b;
+}
+

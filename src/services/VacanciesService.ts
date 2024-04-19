@@ -60,6 +60,65 @@ export class VacanciesService {
           '        </ul>',
         additional: 'Following a successful probationary period and transition to a full-time position, relocation to Toronto, Canada will be necessary for this role.'
       },
+      {
+        key: '3',
+        title: ' HR Specialist',
+        location: 'Toronto',
+        workday: 'Part time working day',
+        description: 'We are looking for an HR Specialist to join our Organizational Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        responsibilities: '<ul>\n' +
+          '          <li>Coordinate hiring and onboarding processes.</li>\n' +
+          '\n' +
+          '          <li>Respond to HR inquiries including, but not limited to: health, benefits, company policy, payroll/pay, etc.</li>\n' +
+          '\n' +
+          '          <li>Maintain HRIS data ensuring accurate information.</li>\n' +
+          '\n' +
+          '          <li>Maintain and improve organizational culture.</li>\n' +
+          '          <li>Collaborate with multiple departments.</li>\n' +
+          '          <li>Support immigration and relocation services, coordinating with our providers and employees.</li>\n' +
+          '        </ul>',
+        requirements: '<ul>\n' +
+          '          <li>Deep knowledge of Human Resources principles.</li>\n' +
+          '\n' +
+          '          <li>Excellent ability to network, collaborate, and bring people together.</li>\n' +
+          '\n' +
+          '          <li>Proficiency with Microsoft Office and other office related software.</li>\n' +
+          '\n' +
+          '          <li>Passion for making a difference in the lives of our customers.</li>\n' +
+          '        </ul>',
+        additional: 'Only candidates residing in Canada with valid work authorization will be considered for this position.'
+      },
+      {
+        key: '4',
+        title: ' Office Manager',
+        location: 'Toronto',
+        workday: 'Part time working day',
+        description: 'We are looking for an Office Administrator to join our Organizational Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        responsibilities: '<ul>\n' +
+          '          <li>Assist in troubleshooting and resolving safety, service, and operational issues.</li>\n' +
+          '\n' +
+          '          <li>Provide the office with all the necessary supplies/equipment.</li>\n' +
+          '\n' +
+          '          <li>Track budget and spend for office operations.</li>\n' +
+          '\n' +
+          '          <li>Complete and maintain a variety of reports as directed by the managers.</li>\n' +
+          '          <li>Communicate with employees about tasks as needed.</li>\n' +
+          '          <li>Support various internal activities/events and meetings (for instance, large meetings, team-building, happy hours, etc.).</li>\n' +
+          '          <li>Perform other duties as assigned.</li>\n' +
+          '        </ul>',
+        requirements: '<ul>\n' +
+          '          <li>Excellent verbal and written communication skills.</li>\n' +
+          '\n' +
+          '          <li>Strong organization skills as well as the ability to multi-task.</li>\n' +
+          '\n' +
+          '          <li>Excellent ability to network, collaborate, and bring people together.</li>\n' +
+          '\n' +
+          '          <li>Proficiency with Microsoft Office and other office related software.</li>\n' +
+          '          <li>Ability to think critically and make decisions on your own.</li>\n' +
+          '          <li>Passion for making a difference in the lives of our customers.</li>\n' +
+          '        </ul>',
+        additional: 'Only candidates residing in Canada with valid work authorization will be considered for this position.'
+      },
     ]
 
   List: Vacancy[];
