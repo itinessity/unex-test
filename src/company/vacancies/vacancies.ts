@@ -14,6 +14,6 @@ export class CompanyVacanciesComponent implements OnInit {
   }
 
   constructor(private service: VacanciesService) {
-    this.TitlesList = service.List;
+    this.TitlesList = service.List.filter((x) => x.show);
   }
 }

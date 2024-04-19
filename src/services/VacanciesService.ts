@@ -8,6 +8,7 @@ export class VacanciesService {
     [
       {
         key: '1',
+        show: true,
         location: 'Toronto',
         workday: 'Part time working day',
         title: 'Lead AI & Machine Learning Engineer',
@@ -36,6 +37,7 @@ export class VacanciesService {
       },
       {
         key: '2',
+        show: true,
         title: ' ML Engineer',
         location: 'Toronto',
         workday: 'Part time working day',
@@ -62,6 +64,7 @@ export class VacanciesService {
       },
       {
         key: '3',
+        show: true,
         title: ' HR Specialist',
         location: 'Toronto',
         workday: 'Part time working day',
@@ -90,6 +93,7 @@ export class VacanciesService {
       },
       {
         key: '4',
+        show: false,
         title: ' Office Manager',
         location: 'Toronto',
         workday: 'Part time working day',
@@ -119,6 +123,36 @@ export class VacanciesService {
           '        </ul>',
         additional: 'Only candidates residing in Canada with valid work authorization will be considered for this position.'
       },
+      {
+        key: '5',
+        show: true,
+        title: ' Senior Learning and Development Specialist',
+        location: 'Toronto',
+        workday: 'Part time working day',
+        description: 'We are looking for a Senior Learning and Development Specialist to join our Learning and Development Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        responsibilities: '<ul>\n' +
+          '          <li>Lead and manage the team of Learning and Development Department.</li>\n' +
+          '\n' +
+          '          <li>Develop, evaluate, and continually improve current educational solutions and programs.</li>\n' +
+          '\n' +
+          '          <li>Creates and maintains relevant content for our system.</li>\n' +
+          '\n' +
+          '          <li>Analyze post training reports and develop actions based on the analysis.</li>\n' +
+          '          <li>Other duties as assigned.</li>\n' +
+          '        </ul>',
+        requirements: '<ul>\n' +
+          '          <li>Strong experience in Education industry.</li>\n' +
+          '\n' +
+          '          <li>Deep knowledge of training, organization development and learning practices.</li>\n' +
+          '\n' +
+          '          <li>Exceptional written and verbal communication skills.</li>\n' +
+          '\n' +
+          '          <li>Exceptional presentation skills.</li>\n' +
+          '          <li>Strong ability to collaborate and work as a member of the team.</li>\n' +
+          '          <li>Passion for making a difference in the lives of our customers.</li>\n' +
+          '        </ul>',
+        additional: 'Only candidates residing in Canada with valid work authorization will be considered for this position.'
+      },
     ]
 
   List: Vacancy[];
@@ -138,4 +172,5 @@ export interface Vacancy {
   key: string;
   location: string;
   workday: string;
+  show: boolean;
 }
