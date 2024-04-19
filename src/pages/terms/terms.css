@@ -1,7 +1,7 @@
 .wrapper
 {
-  padding-top: 30px;
-  font-size: 20px;
+  font-size: 1.1em;
+  padding-bottom: 20px;
 }
 
 .text-block
@@ -12,7 +12,7 @@
   font-family: Arial, serif;
 }
 
-.text-block h1
+h1
 {
   text-align: center;
   background: rgb(136,238,213);
@@ -21,7 +21,6 @@
   background: linear-gradient(180deg, rgba(136,238,213,1) 0%, rgba(117,186,198,1) 94%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88eed5",endColorstr="#75bac6",GradientType=1);
   padding: 10px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
