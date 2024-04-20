@@ -91,3 +91,10 @@
 {
   color: #68c7ba;
 }
+
+@media(max-width: 760px){
+  .card
+  {
+    display: block;
+  }
+}

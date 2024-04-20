@@ -102,7 +102,7 @@
   column-gap: 1em;
   color: #1a393f;
   font-size: 1.3em;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
 .item-art
@@ -146,6 +146,37 @@
   padding-bottom: 50px;
   column-gap: 1em;
 }
+
+@media(max-width: 760px){
+
+  .main-title
+  {
+    font-size: 2em;
+  }
+  .image-box
+  {
+    max-width: 250px;
+  }
+  .holder
+  {
+    display: block;
+  }
+  .text-block
+  {
+    font-size: 0.85em;
+  }
+
+  .about-holder
+  {
+    display: block;
+  }
+
+  .about-item
+  {
+    font-size: 0.85em;
+  }
+}
+
 
 .list-points
 {
