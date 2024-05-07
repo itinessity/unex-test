@@ -72,8 +72,6 @@
   text-decoration: underline transparent;
   transition: text-decoration 300ms ease-in;
   color: #1a393f;
-  padding: 10px;
-  ;
 }
 
 .site-navigation-link:hover
