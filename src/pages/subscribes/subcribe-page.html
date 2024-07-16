@@ -1,20 +1,26 @@
 <div class="wrapper">
-
   <div class="main-title center-grad">
    <span class="colored-unexus"> Join our newsletter!</span>
   </div>
 
-  <div class="form">
-    <mat-form-field class="email-form-full-width" appearance="outline">
-      <mat-label>Email</mat-label>
-      <input type="email" matInput [formControl]="emailControl" [errorStateMatcher]="matcher"
-             placeholder="Ex. pat@example.com">
-      <button matSuffix class="email-btn"  type="button" [disabled]="emailControl.invalid" (click)="submit()">Submit</button>
-    </mat-form-field>
-  </div>
+  <div class="zone">
+    <div class="progress">
+      <mat-spinner *ngIf="requestActive"></mat-spinner>
+    </div>
+    <div class="active">
+      <div class="form">
+        <mat-form-field class="email-form-full-width" appearance="outline">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="emailControl" [errorStateMatcher]="matcher"
+                 placeholder="Ex. pat@example.com">
+          <button matSuffix class="email-btn"  type="button" [disabled]="emailControl.invalid" (click)="submit()">Submit</button>
+        </mat-form-field>
+      </div>
 
-  <div class="text-block">
-    Stay informed about our latest developments and updates by subscribing to our newsletter. <br> Simply fill out the form above with your email address, and you'll be among the first to know when our demo becomes available to everyone.
+      <div class="text-block">
+        Stay informed about our latest developments and updates by subscribing to our newsletter. <br> Simply fill out the form above with your email address, and you'll be among the first to know when our demo becomes available to everyone.
+      </div>
+    </div>
   </div>
 
 </div>

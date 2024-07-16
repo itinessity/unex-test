@@ -14,6 +14,9 @@ import {SubcribeComponent} from "./subscribes/subcribe";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatProgressSpinner} from "@angular/material/progress-spinner";
+import {NgIf} from "@angular/common";
+import {RoadComponent} from "./roadmap/road";
 
 @NgModule({
     declarations: [
@@ -24,18 +27,21 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
         FootComponent,
         TermsComponent,
         PolicyComponent,
-        SubcribeComponent
+        SubcribeComponent,
+        RoadComponent
     ],
-    imports: [
-        PagesRoutingModule,
-        ReactiveFormsModule,
-        MatButton,
-        MatMenuModule,
-        MatDivider,
-        FormsModule,
-        MatFormFieldModule,
-        MatInputModule,
-    ],
+  imports: [
+    PagesRoutingModule,
+    ReactiveFormsModule,
+    MatButton,
+    MatMenuModule,
+    MatDivider,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatProgressSpinner,
+    NgIf,
+  ],
     providers: [],
     exports: [
         FootComponent

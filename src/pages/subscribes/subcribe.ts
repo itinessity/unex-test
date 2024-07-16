@@ -5,6 +5,7 @@ import {ErrorStateMatcher} from '@angular/material/core';
 import {
   MatSnackBar,
 } from "@angular/material/snack-bar";
+import {delay} from "rxjs";
 
 interface MailChimpResponse {
   result: string;
@@ -18,7 +19,7 @@ interface MailChimpResponse {
   styleUrls: ['./subcribe-page.css']
 })
 export class SubcribeComponent {
-  submitted = false;
+  requestActive = false;
   mailChimpEndpoint = 'https://the-banished.us21.list-manage.com/subscribe/post-json?u=aa13a26086f34e69f3e1a6c85&amp;id=874eb6e7f4&amp;f_id=00a982e6f0';
 
   constructor(private http: HttpClient, private _snackBar: MatSnackBar) { }
@@ -39,21 +40,22 @@ export class SubcribeComponent {
         .set('b_aa13a26086f34e69f3e1a6c85_874eb6e7f4', '');
 
       const mailChimpUrl = this.mailChimpEndpoint + "&"+ params.toString();
+      this.requestActive = true;
 
       this.http.jsonp<MailChimpResponse>(mailChimpUrl, 'c')
         .subscribe(response => {
           if (response.result && response.result !== 'error') {
-            this.submitted = true;
-            this.emailControl.setValue("");
+            this.requestActive = false;
+            this.emailControl.reset();
 
             this._snackBar.open(response.msg, "Close", {
               duration: this.durationInSeconds * 1000,
             });
           }
           else {
-            this._snackBar.open(response.msg, "Close", {
-              duration: this.durationInSeconds * 1000,
-            });
+            this.requestActive = false;
+            this.emailControl.setErrors({'incorrect': true});
+            this._snackBar.open(response.msg, "Close");
           }
         });
     }

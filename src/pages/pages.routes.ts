@@ -5,6 +5,7 @@ import {HomeComponent} from "./home/home.component";
 import {PolicyComponent} from "./policy/policy";
 import {TermsComponent} from "./terms/terms";
 import {SubcribeComponent} from "./subscribes/subcribe";
+import {RoadComponent} from "./roadmap/road";
 
 export const routes: Routes =
   [
@@ -25,6 +26,9 @@ export const routes: Routes =
         },
         {
           path: 'subscribe', component: SubcribeComponent,
+        },
+        {
+          path: 'roadmap', component: RoadComponent,
         },
       ]}
   ];
