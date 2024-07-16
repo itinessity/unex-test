@@ -6,11 +6,13 @@
   margin: auto;
   padding: 2em;
   column-gap: 3em;
+  place-content: center;
 }
 
 .art
 {
-  max-width: 10em;
+  max-width: 15em;
+  margin: auto;
 }
 
 .art img
@@ -18,30 +20,14 @@
   width: 100%;
 }
 
-.road
-{
-  display: grid;
-  grid-gap: 2em;
-  grid: auto  / repeat(4, auto);
-}
-
-.item:nth-child(even){
-  margin-top: auto;
-}
-
-.item
-{
-
-}
-
 .text
 {
   font-size: 1.5em;
+  padding: 1em;
 }
 
 .title
 {
-  font-size: 2.5em;
   color: #fafafa;
   background-color: #366b66;
   border-radius: 2em;
@@ -49,4 +35,18 @@
   text-align: center;
   -webkit-text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки */
   text-shadow: 1px 1px 10px #f2f1a2;
+  width: 5em;
+  display: inline-block;
+}
+
+.head
+{
+  font-size: 2.5em;
+}
+
+
+dd {
+  display: list-item;
+  list-style-image: url("check.webp");
+  padding-inline-start: 1ch;
 }
