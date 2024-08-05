@@ -12,7 +12,7 @@ export class VacanciesService {
         location: 'Toronto',
         workday: 'Part time working day',
         title: 'Lead AI & Machine Learning Engineer',
-        description: 'We are looking for a Lead AI & Machine Learning Engineer to join our AI Engineering and Tools Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        description: 'We are looking for a Lead AI & Machine Learning Engineer to join our AI Engineering and Tools Department (from July to October, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
         responsibilities: ' <ul>\n' +
           '          <li>Shape and refine a strategic vision for the AI Engineering and Tools Department.</li>\n' +
           '\n' +
@@ -38,27 +38,29 @@ export class VacanciesService {
       {
         key: '2',
         show: true,
-        title: ' ML Engineer',
+        title: ' System Business Analyst',
         location: 'Toronto',
         workday: 'Part time working day',
-        description: 'We are looking for a Machine Learning Engineer to join our AI Engineering and Tools Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        description: 'We are looking for a skilled System Business Analyst  to join our R&D Department (from August to November, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and eager to be at the forefront of the entire system.',
         responsibilities: '<ul>\n' +
-          '          <li>Design, building, testing, deployment, and support of ML models and components that solve real-world business problems.</li>\n' +
+          '          <li>Analyze and create business processes, identify system requirements.</li>\n' +
           '\n' +
-          '          <li>Work in close collaboration with R&D and Business Development Departments.</li>\n' +
+          '          <li>Collaborate with stakeholders to gather and document business needs.</li>\n' +
           '\n' +
-          '          <li>Anticipate and consider risks when building machine learning solutions.</li>\n' +
+          '          <li>Develop functional specifications and user stories for system enhancements.</li>\n' +
           '\n' +
-          '          <li>Maintain and promote best practices for software development, including deployment process, documentation, and coding standards.</li>\n' +
+          '          <li>Facilitate communication between business and technical teams.</li>\n' +
+          '          <li>Ensure alignment of system solutions with business objectives.</li>\n' +
           '        </ul>',
         requirements: '<ul>\n' +
-          '          <li>Bachelor’s degree in Computer Science, Information Systems, Software, Electrical or Electronic.</li>\n' +
+          '          <li>Strong analytical and problem-solving skills.</li>\n' +
           '\n' +
-          '          <li>Deep knowledge and experience in mobile machine learning.</li>\n' +
+          '          <li>Excellent communication and stakeholder management abilities.</li>\n' +
           '\n' +
-          '          <li>Good communication and teamwork skills.</li>\n' +
+          '          <li>Knowledge of SDLC and Agile methodologies.</li>\n' +
           '\n' +
-          '          <li>Passion for making a difference in the lives of our customers.</li>\n' +
+          '          <li>Ability to translate business needs into technical requirements.</li>\n' +
+          '          <li>Passion for creating solutions, and solving problems – in the right way, at the right time, and for the right reasons.</li>\n' +
           '        </ul>',
         additional: 'Following a successful probationary period and transition to a full-time position, relocation to Toronto, Canada will be necessary for this role.'
       },
@@ -68,7 +70,7 @@ export class VacanciesService {
         title: ' HR Specialist',
         location: 'Toronto',
         workday: 'Part time working day',
-        description: 'We are looking for an HR Specialist to join our Organizational Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        description: 'We are looking for an HR Specialist to join our Organizational Department (from July to October, a part-time position, with a transition to full-time afterward).. In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
         responsibilities: '<ul>\n' +
           '          <li>Coordinate hiring and onboarding processes.</li>\n' +
           '\n' +
@@ -97,7 +99,7 @@ export class VacanciesService {
         title: ' Office Manager',
         location: 'Toronto',
         workday: 'Part time working day',
-        description: 'We are looking for an Office Administrator to join our Organizational Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        description: 'We are looking for an Office Administrator to join our Organizational Department (from July to October, a part-time position, with a transition to full-time afterward).. In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
         responsibilities: '<ul>\n' +
           '          <li>Assist in troubleshooting and resolving safety, service, and operational issues.</li>\n' +
           '\n' +
@@ -126,29 +128,28 @@ export class VacanciesService {
       {
         key: '5',
         show: true,
-        title: ' Senior Learning and Development Specialist',
+        title: '  Sales Representative',
         location: 'Toronto',
         workday: 'Part time working day',
-        description: 'We are looking for a Senior Learning and Development Specialist to join our Learning and Development Department (from March to June, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
+        description: 'We are looking for a Sales Representative to join our Sales Department (from August to November, a part-time position, with a transition to full-time afterward). In this role, we see someone who thrives in a high-paced environment, embraces challenges with enthusiasm, and enjoys a gamified approach to work.',
         responsibilities: '<ul>\n' +
-          '          <li>Lead and manage the team of Learning and Development Department.</li>\n' +
+          '          <li>Research clients and companies to drive business development.</li>\n' +
           '\n' +
-          '          <li>Develop, evaluate, and continually improve current educational solutions and programs.</li>\n' +
+          '          <li>Represent the company’s products and services.</li>\n' +
           '\n' +
-          '          <li>Creates and maintains relevant content for our system.</li>\n' +
+          '          <li>Managing ongoing client relationships.</li>\n' +
           '\n' +
-          '          <li>Analyze post training reports and develop actions based on the analysis.</li>\n' +
-          '          <li>Other duties as assigned.</li>\n' +
+          '          <li>Achieve sales goals by successfully implementing sales and marketing strategies and tactics.</li>\n' +
+          '          <li>Perform other duties as assigned.</li>\n' +
           '        </ul>',
         requirements: '<ul>\n' +
-          '          <li>Strong experience in Education industry.</li>\n' +
+          '          <li>Demonstrated track record of sales experience.</li>\n' +
           '\n' +
-          '          <li>Deep knowledge of training, organization development and learning practices.</li>\n' +
+          '          <li>Able to multi-task, self-assign work, and function in a dynamic, fast-paced environment.</li>\n' +
           '\n' +
-          '          <li>Exceptional written and verbal communication skills.</li>\n' +
+          '          <li>Sharp interpersonal skills.</li>\n' +
           '\n' +
-          '          <li>Exceptional presentation skills.</li>\n' +
-          '          <li>Strong ability to collaborate and work as a member of the team.</li>\n' +
+          '          <li>Team-oriented.</li>\n' +
           '          <li>Passion for making a difference in the lives of our customers.</li>\n' +
           '        </ul>',
         additional: 'Only candidates residing in Canada with valid work authorization will be considered for this position.'

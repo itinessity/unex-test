@@ -75,3 +75,28 @@
 {
   max-width: 150px;
 }
+
+.button-nav
+{
+  margin: auto;
+  background: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+  background-blend-mode: screen;
+  border-width: 0;
+  font-size: 1.5em;
+  color: #1a393f;
+  cursor: pointer;
+}
+
+.button-nav:hover
+{
+  background: rgb(237, 242, 245, 0.8);
+  background-blend-mode: normal;
+}
+
+.buttons
+{
+  max-width: fit-content;
+  margin: auto;
+}
