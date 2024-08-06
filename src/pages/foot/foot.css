@@ -100,3 +100,15 @@
   max-width: fit-content;
   margin: auto;
 }
+
+.bnt-text-logo
+{
+  vertical-align: middle;
+  margin: auto;
+  font-weight:800;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.3em;
+  color: #EB1478;
+}
